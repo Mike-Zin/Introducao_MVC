@@ -1,0 +1,11 @@
+git config --global user.name "Seu Nome" 
+e 
+git config --global user.email "seu_email@exemplo.com"
+
+git init
+git add .
+git commit -m "Mensagem do commit"
+git branch -M main
+git remote add origin https://github.com/usuario/repo.git
+git push -u origin main
+
